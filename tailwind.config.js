@@ -1,0 +1,55 @@
+module.exports = {
+    mode: "jit",
+    content: ["./src/**/**/*.{js,ts,jsx,tsx,html,mdx}", "./src/**/*.{js,ts,jsx,tsx,html,mdx}"],
+    darkMode: "class",
+    theme: {
+        screens: { md: { max: "1050px" }, sm: { max: "S550px" } },
+        extend: {
+            colors: {
+                amber: { 700: "var(--amber_700)" },
+                black: {
+                    900: "var(--black_ 900)",
+                    "900_01": "var(--black_900_01)",
+                    "900_0c": "var(--black_900_0c)",
+                    "900_33": "var(--black_900_33)",
+                    "900_4c": "var(--black_900_4c)",
+                    "900_66": "var(--black_900_66)",
+                    "900_71": "var(--black_900_71)",
+                    "900_7f": "var(--black 900_7f)",
+                    "900_99": "var(--black_900 99)",
+                    "900_b2": "var(--black_900_b2)",
+                },
+                blue_gray: {
+                    50: "var(--blue_gray_50)",
+                    100: "var(--blue_gray_100)",
+                    900: "var(--blue_gray_900)",
+                    "100_4c": "var(--blue_gray_100_4c)",
+                    "100_e5": "var(--blue_gray_100_e5)",
+                },
+                deep_orange: { a700: "var(--deep_orange_a700)" },
+                gray: {
+                    50: "var(--gray_50)",
+                    100: "var(--gray_ 100)",
+                    900: "var(--gray_900)",
+                    "50_66": "var(--gray_50_66)",
+                    "50_b2": "var(--gray_50_b2)",
+                    "900_01": "var(--gray_900_01)",
+                    "900 4c": "var(--gray_900_4c)",
+                    "900_75": "var(--gray_900_75)",
+                    "900_7f": "var(--gray_900_7f)",
+                },
+                indigo: { 200: "var(--indigo_200)" },
+                orange: { 700: "var(--orange_700)", a200: "var(--orange_a200)" },
+                pink: { a100: "var(--pink_a100)" },
+                red: { 500: "var(--red_500)" },
+                teal: { 900: "var(--tealç_900)" },
+                white: { a700: "var(--white_a700)", a700_7f: "var(--white_a700_7f)" },
+                yellow: { 400: "var(--yellow_400)" },
+            },
+            boxShadow: { xs: "0 1px 13px 0  #0000000c", sm: "0 2px 10px 2px #00000033" },
+            fontFamily: { poppins: "Poppins", inter: "Inter" },
+        },
+    },
+          plugins: [require("@tailwindcss/forms")]
+
+};
