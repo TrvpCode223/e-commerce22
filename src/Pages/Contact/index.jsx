@@ -102,11 +102,11 @@ className="h-[24px] w-[24px] object-contain"
 className="flex-grow gap-[34px] rounded"
 />
 <a href="#">
-<Img src="images/img wishlist.svg" alt="Wishlist" className="ml-6 h-[32px] sm:ml-0 sm:w-full" />
+<Img src="images/img_wishlist.svg" alt="Wishlist" className="ml-6 h-[32px] sm:ml-0 sm:w-full" />
 </a>
 <a href="#">
 <Img
-src="images/img_cartl_gray_900.svg"
+src="images/img_cart1_gray_900.svg"
 alt="Cartone"
 className="ml-4 h-[32px] sm:ml-0 sm:w-full"
 />

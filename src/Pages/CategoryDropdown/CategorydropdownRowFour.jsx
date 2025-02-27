@@ -4,7 +4,7 @@ const data = [
 
     {
 
-    deliveryImage: "images/img_contrast_blue_gray_ 900.svg",
+    deliveryImage: "images/img_contrast_blue_gray_900.svg",
     deliveryTitle: "LIVRAISON EXPRESS",
     deliveryDescription: "Livraison dans les meilleurs délais",
     },
@@ -14,7 +14,7 @@ deliveryTitle: "SERVICE CLIENT 24/7",
 deliveryDescription: "Assistance clientéle 24h/24 et 73/7",
 },
 {
-deliveryImage: "images/img_ checkmark.svg",
+deliveryImage: "images/img_checkmark.svg",
 deliveryTitle: "MODES PAIEMENT",
 deliveryDescription: "En Ligne ou a la Livraison",
 },

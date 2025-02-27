@@ -115,7 +115,7 @@ ref={sliderRef}
                                                 </Button>
                                                 <div className="absolute left-0 right-0 top-3 mx-auto flex flex-1 flex-col items-end gap-2">
                                                     <Button shape="round" className="w-[34px] rounded-[16px] px-1">
-                                                        <Img src="images/img wishlist.svg" />
+                                                        <Img src="images/img_wishlist.svg" />
                                                     </Button>
                                                     <Button shape="round" className="w-[34px] rounded-[16px] px-1">
                                                         <Img src="images/img_quick_view.svg" />
@@ -123,7 +123,7 @@ ref={sliderRef}
                                                 </div>
                                                 <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex h-max flex-1 p-3.5">
                                                     <Img
-                                                        src="images/img_g922_500x500_1.png"
+                                                        src="images/img_g92_2_500x500_1.png"
                                                         alt="G922500x5000ne"
                                                         className="h-[152px] w-[78%] object-contain"
                                                     />
@@ -275,7 +275,7 @@ ref={sliderRef}
                                                 />
                                                 <div className="flex flex-col items-end gap-2">
                                                     <Button shape="round" className="w-[34px] rounded-[16px] px-1">
-                                                        <Img src="images/img wishlist.svg" />
+                                                        <Img src="images/img_wishlist.svg" />
                                                     </Button>
                                                     <Button shape="round" className="w-[34px] rounded-[16px] px-1">
                                                         <Img src="images/img_quick_view.svg" />

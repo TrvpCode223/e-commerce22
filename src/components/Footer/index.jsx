@@ -23,7 +23,7 @@ export default function Footer({ ...props }) {
                             name="email"
                             placeholder="Entrez votre email"
                             suffix={
-                                <Img src="images/img_iconsend.svg" alt="Icon send" className="h-[24px] w-[24px] object-contain" />
+                                <Img src="images/img_icon_send.svg" alt="Icon send" className="h-[24px] w-[24px] object-contain" />
                             }
                             className="gap-8 rounded !border-[1.5px] px-3.5"
                         />
@@ -169,7 +169,7 @@ export default function Footer({ ...props }) {
                         </div>
                         <div className="flex w-[66%] justify-between gap-5 md:w-full">
                             <a href="#">
-                                <Img src="images/img_icon_facebook.svg" alt="Facebook" className="h-[24px]" />
+                              <img src="images/img_icon_facebook.svg" alt="Facebook" className="h-[24px]" />
                             </a>
                             <a href="#">
                                 <Img src="images/img_icon_twitter.svg" alt="Twitter" className="h-[24px]" />

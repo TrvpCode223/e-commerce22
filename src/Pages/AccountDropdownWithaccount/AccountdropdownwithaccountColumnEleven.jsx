@@ -54,7 +54,7 @@ export default function AccountDropdownWithAccountColumnEleven() {
                     </div>
                     <div className="mx-auto flex w-full">
                         <Slider
-                            
+
                             responsive={{
                                 0: { items: 1 },
                                 551: { items: 1 },
@@ -363,7 +363,7 @@ export default function AccountDropdownWithAccountColumnEleven() {
                                                         </div>
                                                     </div>
 
-                                                    <Img src="images/img_contrast.svg" alt="Contrast" className="h-(20pxr" />
+                                                    <Img src="images/img_contrast.svg" alt="Contrast" className="h-[20px]" />
                                                 </div>
                                             </div>
 
@@ -490,7 +490,7 @@ export default function AccountDropdownWithAccountColumnEleven() {
                         {/* Bouton "Tous les Produits" */}
                         <Button
                             color="gray_900_01"
-                            size="4x1"
+                            size="4xl"
                             className="min-w-[230px] rounded px-[34px] font-medium sm:px-5"
                         >
                             Tous les Produits

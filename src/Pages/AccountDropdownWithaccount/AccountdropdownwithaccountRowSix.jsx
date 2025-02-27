@@ -2,12 +2,12 @@ import DeliveryInfo from "../../components/DeliveryInfo";
 import React, { Suspense } from "react";
 const data = [
     {
-        deliveryImage: "images/img_contrast_blue_gray_ 900.svg",
+        deliveryImage: "images/img_contrast_blue_gray_900.svg",
         deliveryTitle: "LIVRAISON EXPRESS",
         deliveryDescription: "Livraison dans les meilleurs délais",
     },
     {
-        deliveryImage: "images/img play.svg",
+        deliveryImage: "images/img_play.svg",
         deliveryTitle: "SERVICE CLIENT 24/7",
         deliveryDescription: "Assistance clientéle 24h/24 et 73/7",
     },

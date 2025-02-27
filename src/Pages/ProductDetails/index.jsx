@@ -212,7 +212,7 @@ export default function ProductDetailsPage() {
                                             Buy Now
                                         </Button>
                                         <Button color="black_900_7f" size="lg" variant="outline" className="w-[49px] rounded !border px-1">
-                                            <Img src="images/img wishlist.svg" />
+                                            <Img src="images/img_wishlist.svg" />
                                         </Button>
                                     </div>
                                     <div className="mt-10 self-stretch rounded border border-solid border-black-900_7f py-6 sm:py-5">

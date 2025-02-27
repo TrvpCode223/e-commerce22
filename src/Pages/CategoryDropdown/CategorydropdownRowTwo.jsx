@@ -1,5 +1,5 @@
 import { Img, Button, Heading } from "../../components";
-import AccountDropdownAccountFlashsell from "../../components/AccountDropdownAccountFlashsell";
+import AccountDropdownAccountFlashsell from "../../components/AccountDropdownWithAccountFlashsell";
 import React, { Suspense } from "react";
 export default function CategorydropdownRowTwo() {
 return (
@@ -33,7 +33,7 @@ Buy Now!
 </Button>
 </div>
 <Img
-src="images/img_jbl_boombox_2_hero_020_x1.png"
+src="images/img_jbl_boombox_2_hero_0620_x1.png"
 alt="Jblboomboxtwo"
 className="h-[330px] w-[56%] object-contain md:w-full"
 />

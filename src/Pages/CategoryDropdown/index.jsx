@@ -111,7 +111,7 @@ export default function CategoryDropdownPage() {
                                                                     <div className="h-px w-full self-stretch bg-gray-50" ></div>
                                                                 </div>
                                                                 <Img
-                                                                    src="images/img_arrow_right_gray 50.svg"
+                                                                    src="images/img_arrow_right_gray_50.svg"
                                                                     alt="Arrowright"
                                                                     className="h-[24px] self-start"
                                                                 />
@@ -146,7 +146,7 @@ export default function CategoryDropdownPage() {
                                                         <div className="h-[40px] w-[20px] rounded bg-orange-700" ></div>
                                                         <Heading
                                                             size="headings"
-                                                            as="he"
+                                                            as="h6"
                                                             className="self-end text-[16px] font-semibold !text-orange-700"
                                                         >
                                                             Categories
@@ -165,7 +165,7 @@ export default function CategoryDropdownPage() {
                                                         onClick={() => {
                                                             sliderRef?.current?.slidePrev();
                                                         }}
-                                                        color="gray_ 100"
+                                                        color="gray_100"
                                                         size="3xl"
                                                         className="w-[46px] rounded-[22px] px-2.5"
                                                     >
@@ -185,7 +185,7 @@ export default function CategoryDropdownPage() {
                                             </div>
                                             <div className="mx-auto flex w-full gap-[30px] md:mx-0 md:flex-col">
                                                 <Slider
-                                                    
+
                                                     responsive={{ 0: { items: 1 }, 551: { items: 2 }, 1051: { items: 6 } }}
                                                     disableDotsControls
                                                     activeIndex={sliderState}
@@ -196,7 +196,7 @@ export default function CategoryDropdownPage() {
                                                     items={[ ...Array( 18 ) ].map( () => (
                                                         <React.Fragment key={Math.random()}>
                                                             <div className="px-[15px]">
-                                                                <div className="flex flex-col items-center justify-center gap-4 rounded border border-solid border-black-900 4c p-6 sm:p-5">
+                                                                <div className="flex flex-col items-center justify-center gap-4 rounded border border-solid border-black-900_4c p-6 sm:p-5">
                                                                     <Img
                                                                         src="images/img_category_cellphone.svg"
                                                                         alt="Category"
@@ -216,6 +216,7 @@ export default function CategoryDropdownPage() {
                                     </div>
                                 </div>
                             </div>
+
                             <CategorydropdownColumnFive ></CategorydropdownColumnFive>
                             <CategorydropdownRowTwo ></CategorydropdownRowTwo>
                             <CategorydropdownColumnEleven ></CategorydropdownColumnEleven>
@@ -225,7 +226,6 @@ export default function CategoryDropdownPage() {
                     </div>
                     <Footer className="mt-[140px]" />
                 </div>
-                4 Realtl-L MA
                 <div className="absolute bottom-[8%] right-[6%] m-auto h-[46px] w-[3%] rotate-[-90deg] rounded-[22px] object-contain" ></div>
             </div>
         </>

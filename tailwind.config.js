@@ -42,7 +42,7 @@ module.exports = {
                 orange: { 700: "var(--orange_700)", a200: "var(--orange_a200)" },
                 pink: { a100: "var(--pink_a100)" },
                 red: { 500: "var(--red_500)" },
-                teal: { 900: "var(--tealç_900)" },
+                teal: { 900: "var(--teal_900)" },
                 white: { a700: "var(--white_a700)", a700_7f: "var(--white_a700_7f)" },
                 yellow: { 400: "var(--yellow_400)" },
             },

@@ -2,7 +2,7 @@
 import { Helmet } from "react-helmet";
 import { Heading, Img, Slider, Button, Input, SelectBox } from "../../components";
 import Footer from "../../components/Footer";
-import { CloseSVG } from "../../components/Input/close";
+import  CloseSVG from "../../components/Input/close";
 import AccountdropdownwithaccountColumnEleven from "./AccountdropdownwithaccountColumnEleven";
 import AccountdropdownwithaccountColumnFive from "./AccountdropdownwithaccountColumnFive";
 import AccountdropdownwithaccountColumnFourteen from "./AccountdropdownwithaccountColumnFourteen";
@@ -18,8 +18,8 @@ const dropDownOptions = [
 export default function AccountDropdownWithaccountPage() {
 const [sliderState, setSliderState] = React.useState(0);
 const sliderRef = React.useRef(null);
-const [sliderStatel, setSliderStatel] = React.useState(9);
-const sliderRefl = React.useRef(null);
+const [sliderState1, setSliderStatel] = React.useState(9);
+const sliderRef1 = React.useRef(null);
 const [searchBarValue9, setSearchBarValue9] = React.useState("");
 return (
 <>
@@ -106,12 +106,12 @@ className="flex-grow gap-[34px] rounded"
 />
 <div className="flex w-[32%] justify-center gap-4 sm:w-full">
 <a href="#">
-<Img src="images/img wishlist.svg" alt="Wishlist" className="h-[32px]" />
+<Img src="images/img_wishlist.svg" alt="Wishlist" className="h-[32px]" />
 </a>
 <div className="relative h-[32px] flex-1">
 <a href="#">
 <Img
-src="images/img_cartl.svg"
+src="images/img_cart1.svg"
 alt="Cartone"
 className="absolute bottom-[-0.46px] left-px m-auto h-[24px]"
 />
@@ -191,7 +191,7 @@ responsive={{ 0: { items: 1 }, 551: { items: 1 }, 1051: { items: 1 } }}
                                                     <div className="mr-[11px] inline-block h-[12px] w-[12px] cursor-pointer rounded-[50%] bg-white-a700_7f" />
                                                 );
                                         }}
-activeIndex={sliderStatel}
+activeIndex={sliderState1}
                                         onSlideChanged={( e ) => {
                                             setSliderStatel( e?.item );
                                         }}

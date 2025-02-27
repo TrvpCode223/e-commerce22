@@ -17,7 +17,7 @@ export default function DetailsDuProduitPanier({ ...props }) {
           </Button>
         </div>
         <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex h-max flex-1 p-3.5">
-          <Img src="images/img_g92_2_500x500_1.jpg" alt="G922500x500one" className="h-[152px] w-[78%] object-contain" />
+          <Img src="images/img_g92_2_500x500_1.png" alt="G922500x500one" className="h-[152px] w-[78%] object-contain" />
         </div>
       </div>
       <div className="flex flex-col items-start gap-2 self-stretch">

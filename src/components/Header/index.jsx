@@ -105,7 +105,7 @@ export default function Header({ ...props }) {
                     <Img src="images/img_wishlist.svg" alt="Wishlist" className="h-[32px]" />
                   </a>
                   <a href="#">
-                    <Img src="images/img_cart_gray_900.svg" alt="Cart" className="h-[32px]" />
+                    <Img src="images/img_cart1_gray_900.svg" alt="Cart" className="h-[32px]" />
                   </a>
                 </div>
               </div>

@@ -61,8 +61,7 @@ export default function EcommercehomeRowOne() {
               autoPlayInterval={2000}       // Intervalle de 2 secondes
               responsive={{ 0: { items: 1 }, 551: { items: 1 }, 1051: { items: 1 } }}
               renderDotsItem={(props) => (
-                <div
-                  className={`mr-[5px] inline-block h-[${props.isActive ? 14 : 12}px] w-[${props.isActive ? 14 : 12}px] cursor-pointer rounded-[50%] ${props.isActive ? "border-2 border-solid border-white-a700" : "bg-white-a700_7f"}`}
+                <div className={`mr-[5px] inline-block h-[${props.isActive ? 14 : 12}px] w-[${props.isActive ? 14 : 12}px] cursor-pointer rounded-[50%] ${props.isActive ? "border-2 border-solid border-white-a700" : "bg-white-a700_7f"}`}
                 ></div>
               )}
               activeIndex={sliderState}

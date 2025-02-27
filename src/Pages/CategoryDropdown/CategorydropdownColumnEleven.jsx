@@ -49,11 +49,11 @@ export default function CategorydropdownColumnEleven() {
 
                     <div className="mx-auto flex w-full">
                         <Slider
-                           
+
                             responsive={{ 0: { items: 1 }, 551: { items: 1 }, 1051: { items: 1 } }}
                             disableDotsControls
                             activeIndex={sliderState}
-                            onSlideChanged={( e ) => {
+                            onChange={( e ) => {
                                 setSliderState( e?.item );
                             }}
                             ref={sliderRef}
@@ -65,7 +65,7 @@ export default function CategorydropdownColumnEleven() {
                                                 <div className="relative h-[250px] rounded bg-gray-100 p-3">
                                                     <div className="absolute left-0 right-0 top-3 mx-auto flex flex-1 flex-col items-end gap-2">
                                                         <Button shape="round" className="w-[34px] rounded-[16px] px-1">
-                                                            <Img src="images/img wishlist.svg" />
+                                                            <Img src="images/img_wishlist.svg" />
                                                         </Button>
                                                         <Button shape="round" className="w-[34px] rounded-[16px] px-1">
                                                             <Img src="images/img_quick_view.svg" />
@@ -158,13 +158,13 @@ export default function CategorydropdownColumnEleven() {
                                             <div className="flex w-full flex-col gap-4">
                                                 <div className="flex items-start justify-end rounded bg-gray-100 p-3">
                                                     <Img
-                                                        src="images/img_ideapad_gaming_3i_01_500x500.png"
+                                                        src="images/img_ideapad_gaming_i3_01_500x500.png"
                                                         alt="Ideapadgaming"
                                                         className="my-[22px] h-[180px] w-[70%] self-center object-contain"
                                                     />
                                                     <div className="flex flex-col items-end gap-2">
                                                         <Button shape="round" className="w-[34px] rounded-[16px] px-1">
-                                                            <Img src="images/img wishlist.svg" />
+                                                            <Img src="images/img_wishlist.svg" />
                                                         </Button>
                                                         <Button shape="round" className="w-[34px] rounded-[16px] px-1">
                                                             <Img src="images/img_quick_view.svg" />
@@ -193,12 +193,12 @@ export default function CategorydropdownColumnEleven() {
                                                             </Heading>
                                                         </div>
                                                     </div>
-                                                    | </div>
+                                             </div>
                                             </div>
                                             <div className="flex w-full flex-col gap-4">
                                                 <div className="flex items-start justify-end rounded bg-gray-100 p-3">
                                                     <Img
-                                                        src="images/img_curology_j7pkvgrtusm_unsplash.png"
+                                                        src="images/img_curology_j7pkvqrtusm_unsplash.png"
                                                         alt="Curology"
                                                         className="mb-8 mt-[34px] h-[158px] w-[70%] self-center object-contain"
                                                     />
@@ -379,13 +379,16 @@ export default function CategorydropdownColumnEleven() {
                                                         </div>
                                                     </div>
                                                     <Img src="images/img_user_orange_700.svg" alt="User" className="h-[20px]" />
+                                                    <Heading as="p" className="text-[16px] font-medium !text-black-900_7f">
+                                                        $660
+                                                    </Heading>
                                                 </div>
                                             </div>
                                             <div className="flex w-full flex-col gap-4">
                                                 <div className="relative h-[250px] rounded bg-gray-100 p-3">
                                                     <div className="absolute left-0 right-0 top-3 mx-auto flex flex-1 flex-col items-end gap-2">
                                                         <Button shape="round" className="w-[34px] rounded-[16px] px-1">
-                                                            <Img src="images/img wishlist.svg" />
+                                                            <Img src="images/img_wishlist.svg" />
                                                         </Button>
                                                         <Button shape="round" className="w-[34px] rounded-[16px] px-1">
                                                             <Img src="images/img_quick_view.svg" />
@@ -421,7 +424,7 @@ export default function CategorydropdownColumnEleven() {
                                                             </Heading>
                                                         </div>
                                                     </div>
-                                                    <Img src="images/img_user_orange_700_20x43.svg" alt="User" className="h-[208px]" />
+                                                    <Img src="images/img_user_orange_700_20x48.svg" alt="User" className="h-[208px]" />
                                                 </div>
                                             </div>
                                         </div>

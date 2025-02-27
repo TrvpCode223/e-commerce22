@@ -130,7 +130,7 @@ export default function AboutPage() {
                         <Img src="images/img_wishlist.svg" alt="Wishlist" className="h-[32px]" />
                       </a>
                       <a href="#">
-                        <Img src="images/img_cartl_gray_900.svg" alt="Cartone" className="h-[32px]" />
+                        <Img src="images/img_cart1_gray_900.svg" alt="Cartone" className="h-[32px]" />
                       </a>
                       <a href="#">
                         <Img src="images/img_user_black_900_01.svg" alt="User" className="h-[32px]" />

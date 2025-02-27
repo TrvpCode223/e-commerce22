@@ -229,7 +229,7 @@ className="relative z-[1] text-[12px] font-normal !text-gray-50"
 <div className="relative h-[32px] flex-1">
 <a href="#">
 <Img
-src="images/img_cartl.svg"
+src="images/img_cart1.svg"
 alt="Cartone"
 className="absolute bottom-[-0.46px] left-px m-auto h-[24px]"
 />

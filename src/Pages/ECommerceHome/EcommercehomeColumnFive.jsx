@@ -1,5 +1,5 @@
 import { Button, Heading } from "../../components";
-import AccountDropdownWithAccountCart from "../../components/AccountDropdownAccountCart";
+import AccountDropdownWithAccountCart from "../../components/AccountDropdownWithAccountCart";
 import React, { Suspense } from "react";
 
 export default function EcommercehomeColumnFive() {

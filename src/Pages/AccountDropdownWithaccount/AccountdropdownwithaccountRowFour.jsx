@@ -1,5 +1,5 @@
 import { Img, Button, Heading } from "../../components";
-import AccountDropdownkithAccountFlashsell from "../../components/AccountDropdowniWithAccountFlashsell";
+import AccountDropdownWithAccountFlashsell from "../../components/AccountDropdownWithAccountFlashsell";
 import React, { Suspense } from "react";
 export default function AccountdropdownwithaccountRowFour() {
 return (
@@ -23,7 +23,7 @@ Enhance Your Music Experience
 <div className="mr-[122px] flex gap-6 md:mr-0 md:flex-row sm:flex-col">
 <Suspense fallback={<div>Loading feed...</div>}>
 {[...Array(4)].map((d, index) => (
-<AccountDropdownWithAccountFlashsell key={"listfive" + index} />
+<AccountDropdownWithAccountFlashsell key={"listicondelete" + index} />
 ))}
 </Suspense>
 </div>
@@ -33,7 +33,7 @@ Buy Now!
 </Button>
 </div>
 <Img
-src="images/img_jbl_boombox_2_hero_820_x1.png"
+src="images/img_jbl_boombox_2_hero_0620_x1.png"
 alt="Jblboomboxtwo"
 className="h-[330px] w-[56%] object-contain md:w-full"
 />

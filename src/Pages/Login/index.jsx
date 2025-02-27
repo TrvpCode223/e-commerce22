@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import { Heading, Button, Input, Img, SelectBox } from "../../components";
 import Footer from "../../components/Footer";
-import { CloseSVG } from "../../components/Input/close";
+import  CloseSVG  from "../../components/Input/close";
 import React from "react";
 const dropDownOptions = [
 { label: "Optionl", value: "optionl" },
@@ -96,7 +96,7 @@ className="mr-2 w-[22%] gap-[34px] rounded md:mr-0 md:w-full"
 <div className="flex flex-1 justify-center md:self-stretch md:px-5">
 <div className="flex rounded-br rounded-tr bg-blue_gray-100">
 <Img
-src="images/img_dl_beatsnoop_1.png"
+src="images/img_dl_beatsnoop_1.jpg"
 alt="Dlbeatsnoopone"
 className="mt-[74px] h-[706px] w-full object-cover md:h-auto"
 />

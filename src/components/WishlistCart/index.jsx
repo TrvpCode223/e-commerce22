@@ -1,4 +1,4 @@
-import { Heading, Button, Img } from "../..";
+import {Button, Img, Heading} from "../../components/";
 import React from "react";
 
 export default function WishlistCart({ ...props }) {
